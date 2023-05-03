@@ -1,6 +1,18 @@
 /* Variables */
 :root {
 
+    --color-cyan: #b4d0e7;
+    --color-blue: #0061ff;
+    --color-lightblue: #0093ce;
+    --color-red: #d5001f;
+    --color-lightred: #ff1c1c;
+    --color-green: #a2d39b;
+    --color-lightgreen: #d1e9cd;
+    --color-lightgray: #f5f5f5;
+    --color-yellow: #ffd830;
+    --color-purple: #61082b;
+    --color-gray: #999999;
+    
     --container: 1080px;
 }
 
@@ -44,7 +56,20 @@ a {
 
 /* Debug */
 .border {
+    height: 100px;
     border: 2px dashed #fff;
+}
+
+.bg-red {
+    background-color: var(--color-red);
+}
+
+.bg-green {
+    background-color: var(--color-green);
+}
+
+.bg-blue {
+    background-color: var(--color-blue);
 }
 
 
