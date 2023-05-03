@@ -94,6 +94,11 @@ section {
     flex-basis: calc(100% / 3);
 }
 
+.col-50 {
+    padding: 20px;
+    flex-basis: 50%;
+}
+
 
 /* Debug */
 .border {
@@ -120,6 +125,10 @@ section {
     background-color: var(--color-cyan);
 }
 
+.bg-gray {
+    background-color: var(--color-gray);
+}
+
 .bg-white {
     background-color: #fff;
 }
@@ -128,8 +137,12 @@ section {
     background-color: #000;
 }
 
-[class^="col-"] {
-    height: 500px;
+.h-md {
+    min-height: 500px;
+}
+
+.h-sm {
+    min-height: 300px;
 }
 
 
@@ -165,7 +178,28 @@ header {
 }
 
 
+/* Clients */
+.clients {
+    padding: 0;
+    display: flex;
+}
+
+.clients > * {
+    flex-basis: calc(100% / 3);
+}
+
+.clients-col {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clients-col > * {
+    flex-basis: 50%;
+}
+
+
 /* Footer */
 footer {
     height: 100px;
+    margin-top: 80px;
 }
