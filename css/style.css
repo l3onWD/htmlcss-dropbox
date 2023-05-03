@@ -48,10 +48,6 @@ ul {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-}
-
 section {
     padding: 100px 0 20px 0;
 }
@@ -184,7 +180,23 @@ section {
     display: block;
     padding: 10px 20px;
     color: #000;
+    text-decoration: none;
 }
+
+
+/* Buttons */
+.btn {
+    color: #000;
+    background-color: transparent;
+    padding: 6px 12px;
+    text-decoration: none;
+}
+
+.btn.btn-primary {
+    color: #fff;
+    background-color: var(--color-blue);
+}
+
 
 /* Jumbotron */
 .jumbotron-lg {
