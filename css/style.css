@@ -172,7 +172,7 @@ section {
 }
 
 /* Navbar Menu */
-.navbar-menu {
+.navbar-menu ul {
     display: flex;
 }
 
