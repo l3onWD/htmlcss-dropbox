@@ -1,0 +1,51 @@
+/* Variables */
+:root {
+
+    --container: 1080px;
+}
+
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Generics */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    color: inherit;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Utils */
+.container {
+    max-width: var(--container);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Layout */
+
+
+
+/* Debug */
+.border {
+    border: 2px dashed #fff;
+}
+
+
+/* ====================================== */
