@@ -48,6 +48,10 @@ a {
     text-decoration: none;
 }
 
+section {
+    padding: 100px 0 20px 0;
+}
+
 
 /* Utils */
 .container-md {
@@ -68,7 +72,26 @@ a {
 
 
 /* Layout */
+.row {
+    display: flex;
+    margin-left: -20px;
+    margin-right: -20px;
+}
 
+.col-30 {
+    padding: 20px;
+    flex-basis: 30%;
+}
+
+.col-70 {
+    padding: 20px;
+    flex-basis: 70%;
+}
+
+.col-33 {
+    padding: 20px;
+    flex-basis: calc(100% / 3);
+}
 
 
 /* Debug */
@@ -96,7 +119,15 @@ a {
     background-color: var(--color-cyan);
 }
 
-section > div[class^="container-"] {
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+[class^="col-"] {
     height: 500px;
 }
 
@@ -121,6 +152,11 @@ header {
 
 .navbar-col {
     display: flex;
+}
+
+/* Jumbotron */
+.jumbotron-lg {
+    padding-top: 60px;
 }
 
 
