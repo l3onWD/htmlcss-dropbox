@@ -81,6 +81,10 @@ p {
     display: block;
 }
 
+.mr-30 {
+    margin-right: 30px;
+}
+
 
 /* Layout */
 .row {
@@ -220,7 +224,7 @@ p {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    margin-right: 30px;
+    cursor: pointer;
 }
 
 .checkbox-input {
@@ -229,7 +233,6 @@ p {
     background-color: #fff;
     border: 1px solid var(--color-gray);
     border-radius: 50%;
-    cursor: pointer;
 }
 
 .checkbox-input.checked {
