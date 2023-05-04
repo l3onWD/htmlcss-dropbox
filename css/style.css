@@ -8,10 +8,11 @@
     --color-lightred: #ff1c1c;
     --color-green: #a2d39b;
     --color-lightgreen: #d1e9cd;
+    --color-darkgray: #999999;
+    --color-gray: #d0d0d3;
     --color-lightgray: #f5f5f5;
     --color-yellow: #ffd830;
     --color-purple: #61082b;
-    --color-gray: #999999;
     
     --container-md: 850px;
     --container-lg: 1000px;
@@ -63,10 +64,12 @@ h2 {
 }
 
 h3 {
+    font-size: 20px;
     margin-bottom: 14px;
 }
 
 h4 {
+    font-size: 14px;
     margin-bottom: 14px;
 }
 
@@ -98,6 +101,14 @@ p {
     margin-right: 30px;
 }
 
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
 .mb-30 {
     margin-bottom: 30px;
 }
@@ -107,7 +118,7 @@ p {
 }
 
 .text-muted {
-    color: var(--color-gray);
+    color: var(--color-darkgray);
 }
 
 .text-blue {
@@ -211,7 +222,8 @@ p {
 .checkbox {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 4px;
+    font-size: 12px;
     cursor: pointer;
 }
 
@@ -228,10 +240,19 @@ p {
 }
 
 
+/* Separator */
+.separator {
+    margin: 30px 0;
+    width: 50px;
+    border: 1px solid var(--color-gray);
+}
+
+
 
 /* Plan Cards */
 .plan-card {
     border: 1px solid var(--color-gray);
+    font-size: 12px;
 }
 
 .plan-card-header {
@@ -247,10 +268,11 @@ p {
 .plan-card ul li {
     padding: 8px 0;
     display: flex;
+    align-items: baseline;
 }
 
 .plan-card i {
-    padding: 2px;
+    margin-right: 4px;
 }
 
 
