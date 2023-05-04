@@ -150,6 +150,10 @@ p {
     flex-basis: calc(100% / 3);
 }
 
+.col-66 {
+    flex-basis: calc(100% / 3 * 2);
+}
+
 .col-60 {
     flex-basis: 60%;
 }
