@@ -14,7 +14,7 @@
     --color-gray: #999999;
     
     --container-md: 750px;
-    --container-lg: 900px;
+    --container-lg: 1000px;
     --header-height: 60px;
 }
 
@@ -205,6 +205,7 @@ p {
     background-color: transparent;
     padding: 6px 12px;
     text-decoration: none;
+    display: inline-block;
 }
 
 .btn.btn-primary {
@@ -216,6 +217,24 @@ p {
 /* Jumbotron */
 .jumbotron-lg {
     padding-top: 60px;
+}
+
+.jumbotron-img {
+    position: relative;
+}
+
+.jumbotron-img img {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.jumbotron-lg .btn {
+    margin-bottom: 2rem;
+}
+
+.jumbotron-icon {
+    margin-top: 3rem;
 }
 
 .jumbotron-md {
