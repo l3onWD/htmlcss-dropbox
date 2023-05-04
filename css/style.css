@@ -49,6 +49,10 @@ ul {
     list-style: none;
 }
 
+address {
+    font-style: normal;
+}
+
 section {
     padding: 100px 0 20px 0;
 }
@@ -73,7 +77,8 @@ h4 {
     margin-bottom: 14px;
 }
 
-p {
+p,
+blockquote {
    margin-bottom: 30px; 
 }
 
@@ -371,24 +376,44 @@ p {
 .clients {
     padding: 0;
     display: flex;
-}
-
-.clients > * {
-    flex-basis: calc(100% / 3);
+    flex-wrap: wrap;
 }
 
 .clients-col {
     display: flex;
     flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .client-box {
-    width: 200px;
+    flex: 0 0 200px;
     height: 200px;
-    padding: 20px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.client-box::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.client-box img {
+    width: 100px;
+    filter: invert(1);
+}
+
+.clients-info {
+    flex: 1 0 30%;
+    padding: 30px;
+    background-color: var(--color-lightgray);
+
+}
+
+.clients-info img {
+    width: 150px;
+}
 
 
 
