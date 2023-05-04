@@ -260,6 +260,7 @@ p {
 
 /* Plan Cards */
 .plan-card {
+    height: 100%;
     border: 1px solid var(--color-gray);
     font-size: 12px;
 }
