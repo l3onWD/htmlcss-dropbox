@@ -337,7 +337,7 @@ p {
 }
 
 
-/* Jumbotron */
+/* Jumbotron large*/
 .jumbotron-lg {
     padding-top: 60px;
 }
@@ -357,6 +357,7 @@ p {
 }
 
 
+/* Jumbotron medium*/
 .jumbotron-md {
     padding: 80px 0;
 }
@@ -381,9 +382,14 @@ p {
     flex-wrap: wrap;
 }
 
-.clients-col > * {
-    flex-basis: 50%;
+.client-box {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    display: flex;
 }
+
+
 
 
 /* Footer */
