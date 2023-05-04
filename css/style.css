@@ -268,9 +268,6 @@ p {
 }
 
 
-/* Cards */
-
-
 /* Plan Cards */
 .plan-card {
     height: 100%;
@@ -359,8 +356,13 @@ p {
     margin-top: 3rem;
 }
 
+
 .jumbotron-md {
     padding: 80px 0;
+}
+
+.jumbotron-md .jumbotron-content {
+    width: 50%;
 }
 
 
