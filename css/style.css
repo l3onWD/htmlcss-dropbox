@@ -2,6 +2,7 @@
 :root {
 
     --color-cyan: #b4d0e7;
+    --color-darkblue: #0d2481;
     --color-blue: #0061ff;
     --color-lightblue: #0093ce;
     --color-red: #d5001f;
@@ -134,6 +135,38 @@ blockquote {
     color: var(--color-blue);
 }
 
+.bg-red {
+    background-color: var(--color-red);
+}
+
+.bg-green {
+    background-color: var(--color-green);
+}
+
+.bg-lightblue {
+    background-color: var(--color-lightblue);
+}
+
+.bg-darkblue {
+    background-color: var(--color-darkblue);
+}
+
+.bg-yellow {
+    background-color: var(--color-yellow);
+}
+
+.bg-cyan {
+    background-color: var(--color-cyan);
+}
+
+.bg-purple {
+    background-color: var(--color-purple);
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
 
 /* Layout */
 .row {
@@ -171,34 +204,6 @@ blockquote {
 /* Debug */
 .border {
     border: 2px dashed #fff;
-}
-
-.bg-red {
-    background-color: var(--color-red);
-}
-
-.bg-green {
-    background-color: var(--color-green);
-}
-
-.bg-blue {
-    background-color: var(--color-blue);
-}
-
-.bg-yellow {
-    background-color: var(--color-yellow);
-}
-
-.bg-cyan {
-    background-color: var(--color-cyan);
-}
-
-.bg-gray {
-    background-color: var(--color-gray);
-}
-
-.bg-white {
-    background-color: #fff;
 }
 
 .bg-black {
@@ -372,7 +377,7 @@ blockquote {
 }
 
 
-/* Clients */
+/* Clients Showcase */
 .clients {
     padding: 0;
     display: flex;
@@ -393,12 +398,6 @@ blockquote {
     align-items: center;
 }
 
-.client-box::before {
-    content: '';
-    display: block;
-    padding-top: 100%;
-}
-
 .client-box img {
     width: 100px;
     filter: invert(1);
@@ -408,7 +407,6 @@ blockquote {
     flex: 1 0 30%;
     padding: 30px;
     background-color: var(--color-lightgray);
-
 }
 
 .clients-info img {
