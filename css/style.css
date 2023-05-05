@@ -261,9 +261,17 @@ blockquote {
     background-color: var(--color-blue);
 }
 
+.btn.btn-primary:hover {
+    background-color: var(--color-lightblue);
+}
+
 .btn.btn-secondary {
     color: #000;
     background-color: var(--color-lightgray);
+}
+
+.btn.btn-secondary:hover {
+    background-color: #fff;
 }
 
 .btn.btn-light {
@@ -271,6 +279,13 @@ blockquote {
     border-style: solid;
     border-width: 2px 2px 1px 1px;
     border-color: var(--color-gray) var(--color-gray) #000 #000;
+}
+
+.btn.btn-light:hover {
+    color: #fff;
+    background-color: #000;
+    border-width: 1px;
+    border-color: #000;
 }
 
 /* Button Size */
