@@ -104,30 +104,6 @@ blockquote {
     display: block;
 }
 
-.mr-30 {
-    margin-right: 30px;
-}
-
-.mt-30 {
-    margin-top: 30px;
-}
-
-.mb-10 {
-    margin-bottom: 10px;
-}
-
-.mb-20 {
-    margin-bottom: 20px;
-}
-
-.mb-30 {
-    margin-bottom: 30px;
-}
-
-.mb-60 {
-    margin-bottom: 50px;
-}
-
 .text-bold {
     font-weight: bold;
 }
@@ -203,6 +179,36 @@ blockquote {
 
 .col-60 {
     flex-basis: 60%;
+}
+
+
+.pt-0 {
+    padding-top: 0;
+}
+
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-60 {
+    margin-bottom: 50px;
 }
 
 
