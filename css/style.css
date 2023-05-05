@@ -381,32 +381,40 @@ blockquote {
 .clients {
     padding: 0;
     display: flex;
-    flex-wrap: wrap;
+}
+
+.clients > * {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
 }
 
 .clients-col {
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
 }
 
 .client-box {
-    flex: 0 0 200px;
-    height: 200px;
+    flex: 0 0 50%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 15px solid transparent;
+}
+
+.client-box:hover {
+    border-color: rgba(255, 255, 255, 0.5);
 }
 
 .client-box img {
-    width: 100px;
+    width: 50%;
     filter: invert(1);
 }
 
 .clients-info {
-    flex: 1 0 30%;
     padding: 30px;
     background-color: var(--color-lightgray);
+    overflow-y: auto;
 }
 
 .clients-info img {
