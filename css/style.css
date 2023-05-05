@@ -253,6 +253,11 @@ blockquote {
 }
 
 .btn.btn-secondary {
+    color: #000;
+    background-color: var(--color-lightgray);
+}
+
+.btn.btn-light {
     background-color: #fff;
     border-style: solid;
     border-width: 2px 2px 1px 1px;
