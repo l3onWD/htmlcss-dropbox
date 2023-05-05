@@ -8,7 +8,6 @@
     --color-red: #d5001f;
     --color-lightred: #ff1c1c;
     --color-green: #a2d39b;
-    --color-lightgreen: #d1e9cd;
     --color-darkgray: #999999;
     --color-gray: #d0d0d3;
     --color-lightgray: #f5f5f5;
@@ -131,6 +130,10 @@ blockquote {
     background-color: var(--color-red);
 }
 
+.bg-lightred {
+    background-color: var(--color-lightred);
+}
+
 .bg-green {
     background-color: var(--color-green);
 }
@@ -176,20 +179,20 @@ blockquote {
     flex-grow: 1;
 }
 
-.col-40 {
-    flex-basis: 40%;
-}
-
 .col-33 {
     flex-basis: calc(100% / 3);
 }
 
-.col-66 {
-    flex-basis: calc(100% / 3 * 2);
+.col-40 {
+    flex-basis: 40%;
 }
 
 .col-60 {
     flex-basis: 60%;
+}
+
+.col-66 {
+    flex-basis: calc(100% / 3 * 2);
 }
 
 
@@ -205,6 +208,7 @@ blockquote {
 .mt-30 {
     margin-top: 30px;
 }
+
 
 .mb-0 {
     margin-bottom: 0;
@@ -226,23 +230,6 @@ blockquote {
     margin-bottom: 50px;
 }
 
-
-/* Debug */
-.border {
-    border: 2px dashed #fff;
-}
-
-.bg-black {
-    background-color: #000;
-}
-
-.h-md {
-    min-height: 500px;
-}
-
-.h-sm {
-    min-height: 300px;
-}
 
 
 /* ====================================== */
@@ -321,34 +308,6 @@ blockquote {
 }
 
 
-/* Plan Cards */
-.plan-card {
-    height: 100%;
-    border: 1px solid var(--color-gray);
-    font-size: 12px;
-}
-
-.plan-card-header {
-    padding: 8px 30px;
-    text-align: center;
-    border-bottom: 1px solid var(--color-gray);
-}
-
-.plan-card-body {
-    padding: 30px;
-}
-
-.plan-card ul li {
-    padding: 8px 0;
-    display: flex;
-    align-items: baseline;
-}
-
-.plan-card i {
-    margin-right: 4px;
-}
-
-
 /* Navbar */
 .navbar {
     height: var(--header-height);
@@ -411,6 +370,34 @@ blockquote {
 }
 
 
+/* Plan Cards */
+.plan-card {
+    height: 100%;
+    border: 1px solid var(--color-gray);
+    font-size: 12px;
+}
+
+.plan-card-header {
+    padding: 8px 30px;
+    text-align: center;
+    border-bottom: 1px solid var(--color-gray);
+}
+
+.plan-card-body {
+    padding: 30px;
+}
+
+.plan-card ul li {
+    padding: 8px 0;
+    display: flex;
+    align-items: baseline;
+}
+
+.plan-card i {
+    margin-right: 4px;
+}
+
+
 /* Clients Showcase */
 .clients {
     padding: 0;
@@ -456,7 +443,7 @@ blockquote {
 }
 
 
-/* Faq. List */
+/* Faq List */
 .faq-list li {
     padding: 30px 0;
     border-bottom: 1px solid var(--color-darkgray);
@@ -489,6 +476,7 @@ blockquote {
     display: none;
 }
 
+/* Faq list hover */
 .faq-list li:hover .faq-answer {
     display: block;
 }
@@ -521,7 +509,6 @@ footer {
     color: #fff;
     padding: 6px 0;
 }
-
 
 /* Footer Bottom */
 .footer-bottom {
