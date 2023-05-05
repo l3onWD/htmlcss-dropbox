@@ -1,4 +1,4 @@
-/* Variables */
+/******* Variables *******/
 :root {
 
     --color-cyan: #b4d0e7;
@@ -20,7 +20,7 @@
 }
 
 
-/* Resets */
+/******* Resets *******/
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@
 }
 
 
-/* Generics */
+/******* Generics *******/
 html {
     font-size: 14px;
 }
@@ -84,7 +84,8 @@ blockquote {
 }
 
 
-/* Utils */
+/******* Utils *******/
+/* Misc */
 .container-md {
     max-width: var(--container-md);
     margin-left: auto;
@@ -97,7 +98,6 @@ blockquote {
     margin-right: auto;
 }
 
-
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -105,16 +105,21 @@ blockquote {
 }
 
 
+/* Txt Style */
 .text-bold {
     font-weight: bold;
 }
 
-.text-muted {
-    color: var(--color-darkgray);
-}
 
+/* Txt Position */
 .text-right {
     text-align: right;
+}
+
+
+/* Txt Colors */
+.text-muted {
+    color: var(--color-darkgray);
 }
 
 .text-blue {
@@ -126,6 +131,7 @@ blockquote {
 }
 
 
+/* BG Colors */
 .bg-red {
     background-color: var(--color-red);
 }
@@ -163,7 +169,8 @@ blockquote {
 }
 
 
-/* Layout */
+/******* Layout *******/
+/* Flex Grid */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -196,20 +203,19 @@ blockquote {
 }
 
 
+/* Padding Top */
 .pt-0 {
     padding-top: 0;
 }
 
 
-.mr-30 {
-    margin-right: 30px;
-}
-
+/* Margin Top */
 .mt-30 {
     margin-top: 30px;
 }
 
 
+/* Margin Bottom */
 .mb-0 {
     margin-bottom: 0;
 }
@@ -231,10 +237,15 @@ blockquote {
 }
 
 
+/* Margin Right */
+.mr-30 {
+    margin-right: 30px;
+}
+
 
 /* ====================================== */
 
-/* Buttons */
+/******* Buttons *******/
 .btn {
     color: #000;
     background-color: transparent;
@@ -244,6 +255,7 @@ blockquote {
     display: inline-block;
 }
 
+/* Button Color */
 .btn.btn-primary {
     color: #fff;
     background-color: var(--color-blue);
@@ -261,6 +273,7 @@ blockquote {
     border-color: var(--color-gray) var(--color-gray) #000 #000;
 }
 
+/* Button Size */
 .btn.btn-small {
     padding: 4px 10px;
 }
@@ -274,7 +287,7 @@ blockquote {
 }
 
 
-/* Checkbox */
+/******* Checkbox *******/
 .checkbox {
     display: inline-flex;
     align-items: center;
@@ -296,7 +309,7 @@ blockquote {
 }
 
 
-/* Separator */
+/******* Separator *******/
 .sep {
     margin: 30px 0;
     width: 50px;
@@ -308,7 +321,7 @@ blockquote {
 }
 
 
-/* Navbar */
+/******* Navbar *******/
 .navbar {
     height: var(--header-height);
     position: fixed;
@@ -349,7 +362,7 @@ blockquote {
 }
 
 
-/* Jumbotron */
+/******* Jumbotron *******/
 .jumbotron {
     padding: 0;
 }
@@ -358,7 +371,6 @@ blockquote {
     position: relative;
     bottom: -40px;
 }
-
 
 /* Jumbotron small*/
 .jumbotron-small {
@@ -370,7 +382,7 @@ blockquote {
 }
 
 
-/* Plan Cards */
+/******* Plan Cards *******/
 .plan-card {
     height: 100%;
     border: 1px solid var(--color-gray);
@@ -398,12 +410,13 @@ blockquote {
 }
 
 
-/* Clients Showcase */
+/******* Clients Showcase *******/
 .clients {
     padding: 0;
     display: flex;
 }
 
+/* Main Boxes */
 .clients > * {
     width: calc(100vw / 3);
     height: calc(100vw / 3);
@@ -414,6 +427,7 @@ blockquote {
     flex-wrap: wrap;
 }
 
+/* Small Boxes */
 .client-box {
     flex: 0 0 50%;
     height: 50%;
@@ -432,6 +446,7 @@ blockquote {
     filter: invert(1);
 }
 
+/* Center Box */
 .clients-info {
     padding: 30px;
     background-color: var(--color-lightgray);
@@ -443,7 +458,7 @@ blockquote {
 }
 
 
-/* Faq List */
+/******* Faq List *******/
 .faq-list li {
     padding: 30px 0;
     border-bottom: 1px solid var(--color-darkgray);
@@ -486,7 +501,7 @@ blockquote {
 }
 
 
-/* Footer */
+/******* Footer *******/
 footer {
     background-color: #000;
     margin-top: 80px;
