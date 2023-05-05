@@ -525,5 +525,12 @@ footer {
 
 /* Footer Bottom */
 .footer-bottom {
-    padding: 40px 0;
+    padding: 10px 0 40px;
+    color: var(--color-darkgray);
+}
+
+.footer-language {
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
