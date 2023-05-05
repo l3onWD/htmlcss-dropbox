@@ -452,6 +452,47 @@ blockquote {
 }
 
 
+/* Faq. List */
+.faq-list li {
+    padding: 30px 0;
+    border-bottom: 1px solid var(--color-darkgray);
+    cursor: pointer;
+}
+
+.faq-list li:first-child {
+    border-top: 1px solid var(--color-darkgray);
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-question::after {
+    content: '\f107';
+    margin-right: 30px;
+
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+}
+
+.faq-answer {
+    display: none;
+}
+
+.faq-list li:hover .faq-answer {
+    display: block;
+}
+
+.faq-list li:hover .faq-question::after {
+    content: '\f106';
+}
+
 
 /* Footer */
 footer {
