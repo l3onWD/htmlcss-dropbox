@@ -496,19 +496,29 @@ blockquote {
 
 /* Footer */
 footer {
+    background-color: #000;
     margin-top: 80px;
     color: #fff;
 }
 
+/* Footer Top */
 .footer-top {
     padding: 60px 0;
     display: flex;
 }
 
-.footer-bottom {
-    padding: 40px 0;
-}
-
 .footer-col {
     flex-basis: calc(100% / 5);
+}
+
+.footer-top a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 0;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    padding: 40px 0;
 }
