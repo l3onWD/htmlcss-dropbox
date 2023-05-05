@@ -269,6 +269,10 @@ blockquote {
 }
 
 .btn.btn-large {
+    padding: 8px 42px;
+}
+
+.btn.btn-full {
     width: 100%;
 }
 
@@ -389,7 +393,7 @@ blockquote {
 }
 
 .jumbotron-md .jumbotron-content {
-    width: 50%;
+    width: 60%;
 }
 
 
