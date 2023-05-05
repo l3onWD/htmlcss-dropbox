@@ -248,6 +248,10 @@ blockquote {
     border-color: var(--color-gray) var(--color-gray) #000 #000;
 }
 
+.btn.btn-small {
+    padding: 4px 10px;
+}
+
 .btn.btn-large {
     width: 100%;
 }
