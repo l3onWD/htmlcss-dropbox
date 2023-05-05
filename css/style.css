@@ -347,7 +347,6 @@ blockquote {
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 0 20px;
     background-color: #fff;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -371,9 +370,16 @@ blockquote {
 
 .navbar-menu a {
     display: block;
-    padding: 10px 20px;
+    padding: 0 20px;
     color: #000;
     text-decoration: none;
+
+    line-height: calc(var(--header-height) - 1px);
+    border-bottom: 2px solid transparent;
+}
+
+.navbar-menu a:hover {
+    border-color: var(--color-lightblue);
 }
 
 
