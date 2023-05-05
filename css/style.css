@@ -123,6 +123,10 @@ blockquote {
     margin-bottom: 30px;
 }
 
+.mb-60 {
+    margin-bottom: 50px;
+}
+
 .text-bold {
     font-weight: bold;
 }
@@ -349,21 +353,12 @@ blockquote {
 
 /* Jumbotron large*/
 .jumbotron-lg {
-    padding-top: 60px;
+    padding: 0;
 }
 
-.jumbotron-img {
+.jumbotron-lg > * {
     position: relative;
-}
-
-.jumbotron-img img {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-}
-
-.jumbotron-icon {
-    margin-top: 3rem;
+    bottom: -40px;
 }
 
 
