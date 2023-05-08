@@ -384,22 +384,29 @@ a:hover {
 .navbar-menu {
     margin: 0 16px;
     display: flex;
+    align-self: stretch;
 }
 
 .navbar-menu a {
-    display: block;
+    display: flex;
+    align-items: center;
+    height: 100%;
     padding: 0 20px;
+    
     color: #000;
     text-decoration: none;
     text-align: center;
-
-    line-height: calc(var(--header-height) - 1px);
     border-bottom: 2px solid transparent;
 }
 
 .navbar-menu a:hover {
     color: var(--color-lightblue);
     border-color: var(--color-lightblue);
+}
+
+/* Navbar Actions */
+.navbar-actions {
+    flex-shrink: 0;
 }
 
 
