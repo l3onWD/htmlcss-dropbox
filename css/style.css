@@ -253,6 +253,11 @@ blockquote {
     text-decoration: none;
     text-align: center;
     display: inline-block;
+    border: 1px solid transparent;
+}
+
+.btn:hover {
+    border-color: var(--color-lightblue);
 }
 
 /* Button Color */
