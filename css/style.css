@@ -83,6 +83,14 @@ blockquote {
    margin-bottom: 30px; 
 }
 
+a {
+    color: var(--color-blue);
+}
+
+a:hover {
+    color: var(--color-lightblue);
+}
+
 
 /******* Utils *******/
 /* Misc */
@@ -553,6 +561,10 @@ footer {
     text-decoration: none;
     color: #fff;
     padding: 6px 0;
+}
+
+.footer-top a:hover {
+    color: var(--color-lightblue);
 }
 
 /* Footer Bottom */
