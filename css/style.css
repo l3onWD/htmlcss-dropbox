@@ -383,9 +383,6 @@ a:hover {
 /* Navbar Menu */
 .navbar-menu {
     margin: 0 16px;
-}
-
-.navbar-menu ul {
     display: flex;
 }
 
@@ -394,6 +391,7 @@ a:hover {
     padding: 0 20px;
     color: #000;
     text-decoration: none;
+    text-align: center;
 
     line-height: calc(var(--header-height) - 1px);
     border-bottom: 2px solid transparent;
