@@ -14,7 +14,7 @@
     --color-yellow: #ffd830;
     --color-purple: #61082b;
     
-    --container-md: 850px;
+    --container-md: 840px;
     --container-lg: 1000px;
     --header-height: 60px;
 }
@@ -31,6 +31,7 @@
 /******* Generics *******/
 html {
     font-size: 14px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -128,6 +129,10 @@ a:hover {
 /* Txt Colors */
 .text-muted {
     color: var(--color-darkgray);
+}
+
+.text-black {
+    color: #000;
 }
 
 .text-blue {
