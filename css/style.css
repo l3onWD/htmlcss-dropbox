@@ -364,6 +364,10 @@ blockquote {
 }
 
 /* Navbar Menu */
+.navbar-menu {
+    margin: 0 16px;
+}
+
 .navbar-menu ul {
     display: flex;
 }
