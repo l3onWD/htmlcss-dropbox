@@ -60,12 +60,12 @@ section {
 h1 {
     font-size: 60px;
     font-weight: 800;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 h2 {
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 h3 {
@@ -186,12 +186,13 @@ a:hover {
 .row {
     display: flex;
     flex-wrap: wrap;
+    row-gap: 2rem;
     margin-left: -1rem;
     margin-right: -1rem;
 }
 
 .row > * {
-    padding: 1rem;
+    padding: 0 1rem;
 }
 
 .col {
@@ -417,7 +418,7 @@ a:hover {
 
 .jumbotron > * {
     position: relative;
-    bottom: -40px;
+    bottom: -25px;
 }
 
 /* Jumbotron small*/
