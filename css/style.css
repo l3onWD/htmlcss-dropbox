@@ -172,6 +172,10 @@ a:hover {
     background-color: var(--color-purple);
 }
 
+.bg-lightgray {
+    background-color: var(--color-lightgray);
+}
+
 .bg-white {
     background-color: #fff;
 }
