@@ -400,6 +400,7 @@ a:hover {
 }
 
 .navbar-menu a:hover {
+    color: var(--color-lightblue);
     border-color: var(--color-lightblue);
 }
 
@@ -569,6 +570,7 @@ footer {
 
 .footer-top a:hover {
     color: var(--color-lightblue);
+    text-decoration: underline;
 }
 
 /* Footer Bottom */
